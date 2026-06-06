@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Kapoor ✦ ML Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Bricolage+Grotesque:wght@300;400;500;600;700&family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────────── -->
+<nav>
+  <div class="nav-logo">rohit<span> ✦</span></div>
+  <div class="nav-center">
+    <div class="nav-pill">Open to work ✓</div>
+    <button class="nav-game-btn" id="nav-game-btn">🎮 Play</button>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ─────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="deco" style="top:15%;right:8%;animation-delay:1s">✦</div>
+  <div class="deco" style="top:70%;left:5%;animation-delay:2.5s;font-size:1.5rem">◆</div>
+  <div class="deco" style="top:40%;right:3%;animation-delay:0.5s;font-size:1rem">★</div>
+
+  <div class="hero-inner" style="gap:6rem;max-width:1200px">
+    <div class="hero-left" style="min-width:0">
+      <div class="hero-badge">✨ B.Tech IT Graduate · JUIT 2026</div>
+      <div class="hero-greeting">hey there, I'm</div>
+      <h1 class="hero-name">Rohit<br><span class="squiggle">Kapoor</span></h1>
+      <p class="hero-desc">
+        B.Tech IT graduate building production-grade ML systems — from autonomous driving perception
+        with 35.7M-param models, to RAG pipelines with 4% hallucination rates.
+        I don't just train models, I ship things that actually work.
+      </p>
+      <div class="hero-ctas">
+        <a href="https://mail.google.com/mail/?view=cm&to=kapoornavneet96@gmail.com&su=Opportunity%20for%20Rohit%20Kapoor" target="_blank" class="btn-main">Say hello 👋</a>
+        <a href="https://github.com/lost-cupcake" target="_blank" class="btn-soft">View GitHub →</a>
+        <a href="https://www.linkedin.com/in/rohit-kapoor-9a145936a/" target="_blank" class="btn-soft">LinkedIn →</a>
+      </div>
+    </div>
+
+    <div class="hero-cards" style="min-width:340px;max-width:400px">
+      <div class="hcard rose">   <div class="hcard-emoji">🧠</div><div class="hcard-num">35.7M</div><div class="hcard-label">Model params built</div></div>
+      <div class="hcard lavender"><div class="hcard-emoji">📊</div><div class="hcard-num">216%</div> <div class="hcard-label">Uplift ROI achieved</div></div>
+      <div class="hcard mint">   <div class="hcard-emoji">🏆</div><div class="hcard-num">Top 100</div><div class="hcard-label">NeurIPS global rank</div></div>
+      <div class="hcard amber">  <div class="hcard-emoji">🎯</div><div class="hcard-num">95.75%</div><div class="hcard-label">MRI classifier acc</div></div>
+      <div class="hcard wide" style="background:var(--sky);border-color:#8fc0e8;grid-column:span 2">
+        <div><div class="hcard-num" style="color:#1a3060;font-size:1.8rem">0.99 ROC-AUC</div><div class="hcard-label" style="color:#3a5a80">Brain Tumor Detection</div></div>
+        <div style="font-size:2rem">🔬</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<svg class="wave-divider" viewBox="0 0 1200 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0,24 C200,48 400,0 600,24 C800,48 1000,0 1200,24 L1200,48 L0,48 Z" fill="white" opacity="0.5"/>
+</svg>
+
+<!-- ── SKILLS ────────────────────────────────────────────────── -->
+<section id="skills" style="background:var(--peach)">
+  <div class="reveal">
+    <div class="section-eyebrow">✦ what I work with</div>
+    <div class="section-title">My Tech <span>Stack</span></div>
+  </div>
+  <div class="skills-bg reveal reveal-d1">
+    <div class="skills-grid">
+      <div>
+        <div class="skill-group-title"><div class="sg-dot" style="background:var(--rose2)"></div>ML & Statistics</div>
+        <div class="skill-chips">
+          <span class="chip hot">XGBoost</span><span class="chip hot">CatBoost</span><span class="chip">Gradient Boosting</span>
+          <span class="chip">Random Forest</span><span class="chip hot">A/B Testing</span><span class="chip">ANOVA · Chi-Square</span>
+          <span class="chip hot">Causal Inference</span><span class="chip hot">Uplift Modeling</span><span class="chip hot">SHAP</span>
+          <span class="chip">Power Analysis</span><span class="chip">Bonferroni Correction</span><span class="chip">Cohen's h/d</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title"><div class="sg-dot" style="background:var(--lav2)"></div>Deep Learning & CV</div>
+        <div class="skill-chips">
+          <span class="chip lav">PyTorch</span><span class="chip">CNN · RNN · LSTM</span><span class="chip lav">Transformers</span>
+          <span class="chip lav">Swin Transformer</span><span class="chip">ResNet · EfficientNet</span><span class="chip lav">PointPillars</span>
+          <span class="chip lav">Multi-task Learning</span><span class="chip">Transfer Learning</span><span class="chip lav">Grad-CAM</span>
+          <span class="chip lav">BEV Perception</span><span class="chip lav">Sensor Fusion</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title"><div class="sg-dot" style="background:var(--mint2)"></div>NLP & GenAI</div>
+        <div class="skill-chips">
+          <span class="chip mint-c">LangChain</span><span class="chip mint-c">RAG</span><span class="chip mint-c">ChromaDB</span>
+          <span class="chip mint-c">Hugging Face</span><span class="chip">BERT</span><span class="chip mint-c">Prompt Engineering</span>
+          <span class="chip">Text Classification</span><span class="chip">Sentiment Analysis</span><span class="chip mint-c">Cross-Encoder</span>
+          <span class="chip">Tokenization</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-title"><div class="sg-dot" style="background:#8fc0e8"></div>Data & Deployment</div>
+        <div class="skill-chips">
+          <span class="chip cyan">FastAPI</span><span class="chip cyan">React</span><span class="chip cyan">Docker</span>
+          <span class="chip">Streamlit</span><span class="chip cyan">SQL</span><span class="chip">Python · R</span>
+          <span class="chip">Pandas · NumPy</span><span class="chip">Scikit-learn</span><span class="chip">Matplotlib · Seaborn</span>
+          <span class="chip">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<svg class="wave-divider" viewBox="0 0 1200 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="transform:scaleY(-1)">
+  <path d="M0,24 C200,48 400,0 600,24 C800,48 1000,0 1200,24 L1200,48 L0,48 Z" fill="#f5e6d3" opacity="0.5"/>
+</svg>
+
+<!-- ── RESUME ─────────────────────────────────────────────────── -->
+<section id="resume">
+  <div style="max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center">
+    <div class="reveal">
+      <div class="section-eyebrow">✦ grab my resume</div>
+      <div class="section-title" style="margin-bottom:1rem">View & <span>Download</span></div>
+      <p style="font-size:0.88rem;color:var(--muted);line-height:1.9">
+        Upload your resume once — recruiters can view or download it right here.
+        Supports PDF and Word docs. The file stays local in your browser, nothing is uploaded to any server.
+      </p>
+    </div>
+    <div class="resume-card reveal reveal-d1">
+      <div id="resume-zone" class="resume-zone has-resume">
+        <input type="file" id="resume-file-input" accept=".pdf,.doc,.docx" style="display:none">
+        <div id="resume-placeholder" style="display:none">
+          <div class="resume-upload-icon">📄</div>
+          <div class="resume-upload-title">Upload your Resume</div>
+          <div class="resume-upload-sub">Drag & drop or click · PDF or Word</div>
+          <div class="resume-actions">
+            <button class="btn-main" id="browse-btn" style="font-size:0.78rem;padding:10px 22px">Browse file →</button>
+          </div>
+        </div>
+        <div id="resume-loaded">
+          <div style="font-size:2.5rem;margin-bottom:0.5rem">🎉</div>
+          <div class="resume-filename" id="resume-fname">📄 Rohit_Kapoor_Resume.pdf</div>
+          <div style="font-size:0.75rem;color:var(--muted);margin-bottom:1.25rem">Ready to share with recruiters!</div>
+          <div class="resume-actions">
+            <button class="btn-main"  id="view-btn"  style="font-size:0.78rem;padding:10px 20px">👁 View</button>
+            <button class="btn-main"  id="dl-btn"    style="font-size:0.78rem;padding:10px 20px;background:var(--brown2)">⬇ Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<svg class="wave-divider" viewBox="0 0 1200 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0,24 C200,48 400,0 600,24 C800,48 1000,0 1200,24 L1200,48 L0,48 Z" fill="white" opacity="0.4"/>
+</svg>
+
+<!-- ── PROJECTS ───────────────────────────────────────────────── -->
+<section id="projects" style="background:var(--peach)">
+  <div class="reveal">
+    <div class="section-eyebrow">✦ things I've built</div>
+    <div class="section-title">Featured <span>Projects</span></div>
+    <p style="font-size:0.82rem;color:var(--muted);margin-top:-1.5rem;margin-bottom:2rem;display:flex;align-items:center;gap:8px">
+      <span>📸</span> Click or drag a screenshot onto each project card!
+    </p>
+  </div>
+
+  <div class="projects-list">
+
+    <!-- Project 1 -->
+    <div class="project-card reveal">
+      <div class="project-image-zone rose-bg" id="zone-1" data-src="assets/proj1.png">
+        <input type="file" class="proj-file-input" data-id="1" accept="image/*" style="display:none">
+        
+        <div class="img-zone-btns">
+          <button class="view-img-btn" title="View full image">🔍</button>
+          <button class="remove-img-btn" title="Remove image">✕</button>
+        </div>
+        <div class="drop-hint"><div class="drop-icon">📸</div><div class="drop-text">Drop screenshot here</div><div class="drop-sub">or click to browse</div></div>
+      </div>
+      <div class="project-content">
+        <div class="project-tags"><span class="ptag year">2024</span><span class="ptag cv">Autonomous Driving</span></div>
+        <div class="project-name">Neural Drive — Multi-Task Perception</div>
+        <div class="project-metric">35.7M params · Train loss 2.11 · Heatmap conf 0.993</div>
+        <p class="project-desc">Built from scratch: 6-camera surround fusion (Swin-T + FPN + Lift-Splat-Shoot BEV) with LiDAR PointPillars via windowed cross-modal attention. Reduced complexity O(HW²) → O(HW·w²). Simultaneously does 3D object detection + HD map segmentation (14 classes) with uncertainty-weighted losses. Trained on nuScenes Mini — Tesla T4, 24 epochs.</p>
+        <div class="tech-chips"><span class="tchip">PyTorch</span><span class="tchip">Swin-T</span><span class="tchip">PointPillars</span><span class="tchip">nuScenes</span><span class="tchip">timm</span><span class="tchip">einops</span><span class="tchip">OpenCV</span></div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card reveal reveal-d1">
+      <div class="project-image-zone mint-bg" id="zone-2" data-src="assets/proj2.png">
+        <input type="file" class="proj-file-input" data-id="2" accept="image/*" style="display:none">
+        <div class="img-zone-btns">
+        <button class="view-img-btn" title="View full image">🔍</button>
+        <button class="remove-img-btn" title="Remove image">✕</button>
+      </div>
+        <div class="drop-hint"><div class="drop-icon">📸</div><div class="drop-text">Drop screenshot here</div><div class="drop-sub">or click to browse</div></div>
+      </div>
+      <div class="project-content">
+        <div class="project-tags"><span class="ptag year">2025</span><span class="ptag stats">Causal Stats</span></div>
+        <div class="project-name">A/B Test & Uplift Modeling</div>
+        <div class="project-metric">216% ROI vs 53% random — 4× net value from same budget</div>
+        <p class="project-desc">Analyzed 64K-customer RCT via z-tests, Cohen's h, Bonferroni correction. Men's email +7.7pp lift (p=5.69e-112, h=0.22). T-Learner meta-learner (Gradient Boosting) for individual treatment effects + SHAP + Qini curve evaluation for precision uplift targeting.</p>
+        <div class="tech-chips"><span class="tchip">XGBoost</span><span class="tchip">SHAP</span><span class="tchip">scikit-uplift</span><span class="tchip">statsmodels</span><span class="tchip">scipy</span><span class="tchip">pandas</span></div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card reveal">
+      <div class="project-image-zone lav-bg" id="zone-3" data-src="assets/proj3.png">
+        <input type="file" class="proj-file-input" data-id="3" accept="image/*" style="display:none">
+        
+        <div class="img-zone-btns">
+          <button class="view-img-btn" title="View full image">🔍</button>
+          <button class="remove-img-btn" title="Remove image">✕</button>
+        </div>
+        <div class="drop-hint"><div class="drop-icon">📸</div><div class="drop-text">Drop screenshot here</div><div class="drop-sub">or click to browse</div></div>
+      </div>
+      <div class="project-content">
+        <div class="project-tags"><span class="ptag year">2025</span><span class="ptag cv">Medical AI</span></div>
+        <div class="project-name">Brain Tumor MRI Classifier</div>
+        <div class="project-metric">95.75% accuracy · 0.99 ROC-AUC · Full-stack live app</div>
+        <p class="project-desc">Fine-tuned ResNet18 on 7,023 MRI images across 4 classes. Grad-CAM revealed a source-distribution shortcut — intensity normalization + center-cropping fixed it (94.7% → 95.75%). Deployed as FastAPI + React app with live Grad-CAM heatmap overlay.</p>
+        <div class="tech-chips"><span class="tchip">PyTorch</span><span class="tchip">ResNet18</span><span class="tchip">Grad-CAM</span><span class="tchip">FastAPI</span><span class="tchip">React</span><span class="tchip">Vite</span></div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card reveal reveal-d1">
+      <div class="project-image-zone amber-bg" id="zone-4" data-src="assets/proj4.png">
+        <input type="file" class="proj-file-input" data-id="4" accept="image/*" style="display:none">
+        
+        <div class="img-zone-btns">
+          <button class="view-img-btn" title="View full image">🔍</button>
+          <button class="remove-img-btn" title="Remove image">✕</button>
+        </div>
+        <div class="drop-hint"><div class="drop-icon">📸</div><div class="drop-text">Drop screenshot here</div><div class="drop-sub">or click to browse</div></div>
+      </div>
+      <div class="project-content">
+        <div class="project-tags"><span class="ptag year">2024</span><span class="ptag genai">GenAI</span></div>
+        <div class="project-name">RAG Document Assistant</div>
+        <div class="project-metric">Hallucination: 18% → 4% via LLM-as-judge eval harness</div>
+        <p class="project-desc">PDF chatbot with ChromaDB + sentence-transformers (top-6) and cross-encoder reranking (top-4). Custom LLM-as-judge evaluation harness cut hallucination by 78%. Multi-document conversation with source citations. FastAPI + React deployment.</p>
+        <div class="tech-chips"><span class="tchip">LangChain</span><span class="tchip">ChromaDB</span><span class="tchip">sentence-transformers</span><span class="tchip">Cross-Encoder</span><span class="tchip">FastAPI</span><span class="tchip">React</span></div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card reveal">
+      <div class="project-image-zone sky-bg" id="zone-5" data-src="assets/proj5.png">
+        <input type="file" class="proj-file-input" data-id="5" accept="image/*" style="display:none">
+        
+        <div class="img-zone-btns">
+          <button class="view-img-btn" title="View full image">🔍</button>
+          <button class="remove-img-btn" title="Remove image">✕</button>
+        </div>
+        <div class="drop-hint"><div class="drop-icon">📸</div><div class="drop-text">Drop screenshot here</div><div class="drop-sub">or click to browse</div></div>
+      </div>
+      <div class="project-content">
+        <div class="project-tags"><span class="ptag year">2025</span><span class="ptag ieee">IEEE Paper</span><span class="ptag mint-t">Industry 4.0</span></div>
+        <div class="project-name">Smart Manufacturing Dashboard</div>
+        <div class="project-metric">92.54% accuracy · 0.92 F1 · Cloud deployed · IEEE published</div>
+        <p class="project-desc">ML-based predictive maintenance & supply chain risk. Isolation Forest anomaly detection + supervised risk classifier. Cloud-deployed full-stack dashboard with RESTful APIs. Published at IEEE Conference · Jaypee University of IT · 2025.</p>
+        <div class="tech-chips"><span class="tchip">Isolation Forest</span><span class="tchip">Scikit-learn</span><span class="tchip">FastAPI</span><span class="tchip">React</span><span class="tchip">Cloud Deploy</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<svg class="wave-divider" viewBox="0 0 1200 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="transform:scaleY(-1)">
+  <path d="M0,24 C200,48 400,0 600,24 C800,48 1000,0 1200,24 L1200,48 L0,48 Z" fill="#f5e6d3" opacity="0.5"/>
+</svg>
+
+<!-- ── ABOUT / ACHIEVEMENTS ──────────────────────────────────── -->
+<section id="about">
+  <div class="reveal">
+    <div class="section-eyebrow">✦ a little more</div>
+    <div class="section-title">Wins & <span>Certs</span></div>
+  </div>
+  <div class="ach-grid reveal reveal-d1">
+    <div class="ach-card"><div class="ach-icon-wrap" style="background:var(--amber)">🏆</div><div><div class="ach-title">Top 100 Globally — NeurIPS Polymer Prediction Challenge</div><div class="ach-sub">Competitive ML · Global leaderboard · Kaggle</div></div></div>
+    <div class="ach-card"><div class="ach-icon-wrap" style="background:var(--lavender)">📐</div><div><div class="ach-title">Top Ranks — Kaggle NeurIPS Math Misconception Competition</div><div class="ach-sub">NLP · Educational AI · Kaggle competition</div></div></div>
+    <div class="ach-card"><div class="ach-icon-wrap" style="background:var(--sky)">☁️</div><div><div class="ach-title">AWS Foundations of Prompt Engineering</div><div class="ach-sub">Amazon Web Services · Certified · May 2026</div></div></div>
+    <div class="ach-card"><div class="ach-icon-wrap" style="background:var(--mint)">🗄️</div><div><div class="ach-title">IBM SQL and Relational Databases 101</div><div class="ach-sub">CognitiveClass.ai · Certified · May 2026</div></div></div>
+  </div>
+
+  <div class="reveal reveal-d2">
+    <div class="section-eyebrow" style="margin-top:3rem">✦ education</div>
+    <div class="edu-row">
+      <div class="edu-card primary">
+        <div class="edu-year">2022 – 2026</div>
+        <div class="edu-degree">B.Tech in Information Technology</div>
+        <div class="edu-school">Jaypee University of Information Technology, Waknaghat</div>
+      </div>
+      <div class="edu-card secondary">
+        <div class="edu-year">2022</div>
+        <div class="edu-degree">Senior Secondary (12th Grade)</div>
+        <div class="edu-school">JCB Public Senior Secondary School, Shimla</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ───────────────────────────────────────────────── -->
+<section id="contact" style="background:var(--peach)">
+  <div class="contact-box reveal">
+    <div class="contact-big">Let's work together ✦</div>
+    <p class="contact-sub">
+      Looking for Data Scientist / ML Engineer / AI Engineer roles.<br>
+      I'd love to chat about your team and what we could build together!
+    </p>
+    <a href="https://mail.google.com/mail/?view=cm&to=kapoornavneet96@gmail.com&su=Opportunity%20for%20Rohit%20Kapoor" target="_blank" class="btn-main" style="margin:0 auto;width:fit-content">
+      Say hello → kapoornavneet96@gmail.com
+    </a>
+    <p style="font-size:0.75rem;color:var(--muted);margin-top:0.75rem">+91 8219802636</p>
+    <div class="contact-links">
+      <a href="https://mail.google.com/mail/?view=cm&to=kapoornavneet96@gmail.com&su=Opportunity%20for%20Rohit%20Kapoor" target="_blank" class="clink email">✉ Email</a>
+      <a href="https://www.linkedin.com/in/rohit-kapoor-9a145936a/" target="_blank" class="clink linkedin">in LinkedIn</a>
+      <a href="https://github.com/lost-cupcake" target="_blank" class="clink github">⌥ GitHub</a>
+      <a href="https://www.kaggle.com/kyraku" target="_blank" class="clink kaggle">◈ Kaggle</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Rohit Kapoor</span>
+  <span>Made with <span style="color:var(--rose2)">♥</span> · JUIT Waknaghat</span>
+</footer>
+
+<!-- ── IMAGE LIGHTBOX ────────────────────────────────────────── -->
+<div class="img-lightbox" id="img-lightbox">
+  <button class="lightbox-close" id="lightbox-close">✕</button>
+  <img id="lightbox-img" src="" alt="Project preview">
+  <div class="lightbox-hint">Press ESC or click outside to close</div>
+</div>
+
+<button class="float-game-btn" id="float-game-btn" title="Play Tic Tac Toe!">🎮</button>
+
+<!-- ── TIC TAC TOE MODAL ─────────────────────────────────────── -->
+<div class="game-modal-overlay" id="game-overlay">
+  <div class="game-modal">
+    <button class="game-close" id="game-close-btn">✕</button>
+    <div class="game-title">Tic Tac Toe ✦</div>
+    <div class="game-subtitle">take a break, challenger 👾</div>
+    <div class="mode-btns">
+      <button class="mode-btn active" id="btn-2p">👥 2 Players</button>
+      <button class="mode-btn"        id="btn-ai">🤖 vs AI</button>
+    </div>
+    <div class="score-board">
+      <div class="score-cell x-cell">   <div class="score-player">X</div>   <div class="score-num" id="score-x">0</div></div>
+      <div class="score-cell draw-cell"><div class="score-player">Draw</div> <div class="score-num" id="score-d">0</div></div>
+      <div class="score-cell o-cell">   <div class="score-player">O</div>   <div class="score-num" id="score-o">0</div></div>
+    </div>
+    <div class="status-bar" id="game-status">✦ X goes first!</div>
+    <div class="ttt-board" id="ttt-board">
+      <div class="ttt-cell" data-i="0"></div><div class="ttt-cell" data-i="1"></div><div class="ttt-cell" data-i="2"></div>
+      <div class="ttt-cell" data-i="3"></div><div class="ttt-cell" data-i="4"></div><div class="ttt-cell" data-i="5"></div>
+      <div class="ttt-cell" data-i="6"></div><div class="ttt-cell" data-i="7"></div><div class="ttt-cell" data-i="8"></div>
+    </div>
+    <div class="game-btns">
+      <button class="game-btn" id="new-game-btn">🔄 New Game</button>
+      <button class="game-btn" id="reset-scores-btn" style="font-size:0.72rem;padding:10px 16px">Reset Scores</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
