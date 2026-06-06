@@ -1,6 +1,6 @@
 # 🧠 Rohit Kapoor — ML/AI Portfolio
 
-> **Live Site:** [rohit-portfolio.vercel.app](https://rohit-portfolio.vercel.app)
+> **Live Site:** [rohit-portfolio.vercel.app]((https://rohit-portfolio-five-pi.vercel.app/))
 
 A clean, modern portfolio built to showcase my ML/AI projects, skills, and experience — with a working resume viewer, project screenshot gallery, and a bonus Tic Tac Toe game 🎮
 
