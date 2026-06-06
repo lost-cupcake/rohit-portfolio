@@ -1,49 +1,112 @@
-# Rohit Kapoor — Portfolio
+# 🧠 Rohit Kapoor — ML/AI Portfolio
 
-## 📁 Folder Structure
+> **Live Site:** [rohit-portfolio.vercel.app](https://rohit-portfolio.vercel.app)
+
+A clean, modern portfolio built to showcase my ML/AI projects, skills, and experience — with a working resume viewer, project screenshot gallery, and a bonus Tic Tac Toe game 🎮
+
+---
+
+## ⚡ Tech Stack
+
+### Frontend
+| Technology | Purpose |
+|---|---|
+| **HTML5** | Structure & semantic markup |
+| **CSS3** | Custom styling, animations, responsive layout |
+| **Vanilla JavaScript** | All interactivity — zero frameworks, zero dependencies |
+| **Google Fonts** | Clash Display · Bricolage Grotesque · Caveat |
+
+### Features Built From Scratch
+| Feature | How it works |
+|---|---|
+| **Scroll Reveal** | IntersectionObserver API — elements fade in as you scroll |
+| **Project Screenshots** | File API + FileReader — drag & drop or click to upload |
+| **Image Lightbox** | Custom modal — click any screenshot for full preview |
+| **Resume Viewer** | Loads directly from `assets/resume.pdf` — view & download |
+| **Tic Tac Toe** | Rule-based AI (win → block → center → corner → random) |
+| **Responsive Layout** | CSS Grid + Flexbox — works on all screen sizes |
+
+### Design Decisions
+- **No frameworks** (no React, no Vue, no Bootstrap) — pure HTML/CSS/JS keeps it fast and simple to edit
+- **CSS Variables** — all colors defined in `:root` so changing the theme takes 10 seconds
+- **Base64-free** — images loaded from `assets/` folder, not embedded in code, keeping the HTML clean
+- **Static site** — no backend needed, deploys anywhere (Vercel, Netlify, GitHub Pages)
+
+---
+
+## 📁 Project Structure
+
 ```
 rohit-portfolio/
-├── index.html        ← main page (edit content here)
+├── index.html          # Main page — edit content here
 ├── css/
-│   └── style.css     ← all styles (edit design here)
+│   └── style.css       # All styles — edit design here
 ├── js/
-│   └── main.js       ← all interactions (game, upload, reveal)
-└── assets/           ← put your project screenshots here
-    └── (drop images here)
+│   └── main.js         # All interactions — game, uploads, lightbox
+├── assets/             # Drop your files here
+│   ├── resume.pdf      # Your resume (must be named exactly this)
+│   ├── proj1.png       # Neural Drive — Autonomous Driving
+│   ├── proj2.png       # A/B Test & Uplift Modeling
+│   ├── proj3.png       # Brain Tumor MRI Classifier
+│   ├── proj4.png       # RAG Document Assistant
+│   └── proj5.png       # Smart Manufacturing Dashboard
+└── README.md
 ```
 
-## 🚀 Deploy for FREE in 2 minutes
+---
 
-### Option 1 — Netlify (EASIEST, recommended)
-1. Go to https://netlify.com → sign up free
-2. Drag the entire `rohit-portfolio` folder onto the Netlify dashboard
-3. Done! You get a live URL like `rohit-kapoor.netlify.app`
-4. You can set a custom domain too
+## 🚀 Projects Showcased
 
-### Option 2 — GitHub Pages
-1. Create a new repo on GitHub called `rohit-kapoor.github.io`
-2. Upload all files from this folder into the repo
-3. Go to Settings → Pages → Source: main branch
-4. Live at `https://rohit-kapoor.github.io` in ~2 mins
+### 1. Neural Drive — Multi-Task Autonomous Driving Perception
+- 35.7M parameter model from scratch
+- Fuses 6 cameras (Swin-T + FPN + LSS BEV) + LiDAR (PointPillars)
+- Windowed cross-modal attention: O(HW²) → O(HW·w²)
+- 3D object detection + HD map segmentation (14 classes)
+- **Stack:** PyTorch · Swin Transformer · PointPillars · nuScenes · timm
 
-### Option 3 — Vercel
-1. Go to https://vercel.com → sign up free
-2. Click "Add New Project" → drag & drop folder
-3. Live instantly with a URL like `rohit-kapoor.vercel.app`
+### 2. A/B Test & Uplift Modeling — Email Marketing
+- 64K-customer RCT analysis with z-tests, Cohen's h, Bonferroni correction
+- T-Learner meta-learner for individual treatment effects
+- **216% ROI** vs 53% random — 4× net value from same budget
+- **Stack:** XGBoost · SHAP · scikit-uplift · statsmodels · scipy
 
-## ✏️ Making Changes
+### 3. Brain Tumor MRI Classifier — Full Stack App
+- ResNet18 fine-tuned on 7,023 MRI images · **95.75% accuracy · 0.99 ROC-AUC**
+- Grad-CAM revealed & fixed a source-distribution shortcut
+- Live FastAPI + React app with heatmap overlay
+- **Stack:** PyTorch · ResNet18 · Grad-CAM · FastAPI · React · Vite
 
-### Change text/content → edit `index.html`
-- Hero description, badge, project descriptions, contact info etc.
+### 4. RAG-Powered Document Assistant
+- ChromaDB + sentence-transformers (top-6) + cross-encoder reranking (top-4)
+- LLM-as-judge eval harness: hallucination **18% → 4%**
+- **Stack:** LangChain · ChromaDB · FastAPI · React
 
-### Change colors/fonts/layout → edit `css/style.css`
-- All CSS variables are at the top under `:root { ... }`
+### 5. Smart Manufacturing Dashboard — IEEE Paper
+- Isolation Forest anomaly detection + supply chain risk classifier
+- **92.54% accuracy · 0.92 weighted F1** · Cloud deployed
+- Published at IEEE Conference · JUIT 2025
+- **Stack:** Scikit-learn · FastAPI · React
 
-### Change interactions → edit `js/main.js`
-- Game logic, resume upload, scroll animations
+---
 
-## 🔗 Links already set
-- Email    → opens Gmail compose directly
-- LinkedIn → https://www.linkedin.com/in/rohit-kapoor-9a145936a/
-- GitHub   → https://github.com/lost-cupcake
-- Kaggle   → https://www.kaggle.com/kyraku
+## 🏆 Achievements
+
+- 🥇 **Top 100 globally** — NeurIPS Polymer Prediction Challenge
+- 📐 **Top ranks** — Kaggle NeurIPS Math Misconception Competition
+- ☁️ AWS Foundations of Prompt Engineering (May 2026)
+- 🗄️ IBM SQL and Relational Databases 101 (May 2026)
+
+---
+
+## 📬 Contact
+
+| Platform | Link |
+|---|---|
+| Email | [kapoornavneet96@gmail.com](https://mail.google.com/mail/?view=cm&to=kapoornavneet96@gmail.com) |
+| LinkedIn | [linkedin.com/in/rohit-kapoor-9a145936a](https://www.linkedin.com/in/rohit-kapoor-9a145936a/) |
+| GitHub | [github.com/lost-cupcake](https://github.com/lost-cupcake) |
+| Kaggle | [kaggle.com/kyraku](https://www.kaggle.com/kyraku) |
+
+---
+
+*Built with ❤️ · No frameworks were harmed in the making of this portfolio*
